@@ -1,0 +1,96 @@
+﻿
+itemGroup.tabPHTC2= [PHTC2] PhantomCraft2
+tile.normalore.name= Phantom Material Ore
+tile.energyore.name= Phantom Energy Dust Ore
+item.normalingot.name= Phantom substance ingot
+item.energydust.name= Phantom energy dust
+
+item.basichelmet.name= Phantom Material Helmet
+item.basicchestplate.name= Phantom Material Armor
+item.basicleggings.name=Phantom Substance Leggings
+item.basicboots.name= Phantom Material Boots
+
+item.basicsword.name= Phantom Material Sword
+item.basicaxe.name= Phantom Material Axe
+item.basicpickaxe.name= Phantom Material Pickaxe
+item.basicspade.name= Phantom Material Shovel
+
+item.customtools.name= PEU concentrator core
+PEU supplies core Iron sword.name= PEU Concentrated core iron sword
+PEU supplies core Advanced-Material sword.name= PEU Concentrated Core Advanced Phantom Sword
+PEU supplies core Advanced-Diamond sword.name= PEU Poly-Core Advanced Composite Diamond Sword
+PEU supplies core Hyper-Excited diamond sword.name= PEU Concentrated core super-excited state diamond sword
+Strengthen time:= Strengthen times
+item.materialadv_part.name= Advanced Phantom Material Blade
+item.materialdia_part.name= Advanced Composite Diamond Blade
+item.materialiron_part.name= Iron blade
+item.materialextdia_part.name=§3 Super-Excited Diamond Blade
+item.strengthenitem.name= Damage Hardening Chip
+text.customtable.1= Top left core, top right material
+text.customtable.2= lower left for energy, lower right to strengthen
+CustomTable= PEU custom workbench
+tile.CustomTable.name=PEU Custom Workbench
+item.explodeitem.name= Explosion-enhanced chip
+item.lightningitem.name= Lightning enhanced chip
+item.madv_part.name= Advanced Phantom Material Pickaxe
+item.madia_part.name= Advanced Composite Diamond Pickaxe
+item.miron_part.name= Iron Pickaxe
+item.maextdia_part.name=§3 Super Excited Diamond Skull
+
+Poly Energy Converter= Concentrator
+PEU Poly Energy Converter= PEU Advanced Energy Converter
+tile.stateexchange.name= Convergent converter
+tile.PEUstateexchange.name=§3PEU Advanced Convergence Converter
+Energy Converter=Basic Energy Transfer Meter
+Stored PEU= Save PEU energy
+Transport Speed=Transmission rate
+PEU Furnace= PEU furnace
+tile.PEUfurnace.name= PEU furnace
+tile.energyproduce.name= Basic PEU energy transfer meter
+tile.PEUStorage.name= PEU energy storage
+tile.PEUSolar.name= Solar PEU Enrichment
+tile.PEUASolar.name=§3 Advanced Solar PEU Concentrator
+tile.PEUAStorage.name=§3 Advanced PEU Energy Storage
+UpSlot is Input, DownSlot is Output= Top Input Bottom Output
+UpSlot Output= Up port output
+Self-cycling PEU equipment=§3 Self-circulating PEU equipment
+PEUStorage= PEU energy storage
+PEUAStorage= Advanced PEU energy storage
+PEUSolar= solar PEU enrichment device
+Advanced PEUSolar= Advanced Solar PEU Concentrator
+attack damage= §1 attack damage
+
+item.ph_advdust.name=Excited State Energy Dust
+item.ph_advingot.name= Excited phantom material ingot
+item.ph_hyperdiamond.name= §3 Super-excited diamonds
+
+item.eport_input.name=Basic Energy Input Port
+item.eport_output.name=Basic Energy Output Port
+item.eport_save.name= Basic Energy Storage Module
+item.eport_impact.name= §3 Energy Impact Module
+item.eport_enrich.name= §3 Energy Enrichment Module
+item.eport_storage.name= §3 energy storage module
+
+item.ph_basicbattery.name= Portable Energy Storage
+item.ph_advbattery.name= §3 Portable Advanced Energy Storage
+
+item.PEUsword.name= PEU Supplied Excited Phantom Sword
+item.PEUaxe.name=PEU Energized Exciton Phantom Axe
+item.PEUpickaxe.name= PEU energizes excited phantom material picks
+item.PEUspade.name=PEU Energized Exciton Phantom Mate shovel
+item.ph_PEUgun.name=PEU powered automatic cross
+item.ph_PEUFlySupport.name= PEU Powered Flight Assist Module
+item.ph_PEUShield.name= PEU Energy Shield
+
+item.PEUhelmet.name= PEU Powered Excited Phantom Material Helmet
+item.PEUchestplate.name= PEU Supplied Excited Phantom Material Armor
+item.PEUleggings.name= PEU For energizing state phantom leggings
+item.PEUboots.name=PEU Energized Excited Phantom Boots
+
+item.PEUfinalhelmet.name= §3EX-PEU SUPER EXPLOSIVE PHANTOM Helmet
+item.PEUfinalchestplate.name= §3EX-PEU SUPER EXPLOSIVE PHANTOM PROJECT MATCH
+item.PEUfinalleggings.name=§3EX-PEU Energized Super-excited Phantom Substance Leggings
+item.PEUfinalboots.name= §3EX-PEU SUPER-EXPLOSIVE PHANTOM SUBSTANTIAL SHOES
+
+item.PEUfsword.name= §3EX-PEU SUPER EXPLOSIVE PHANTOM SPARKLING Sword
+item.PEUfpickaxe.name=§3EX-PEU SUPER EXPLOSIVE PHANTOM material

@@ -1,0 +1,105 @@
+﻿
+itemGroup.tabPHTC2=[PHTC2]幻影工艺
+tile.normalore.name=幻影物质矿石
+tile.energyore.name=幻影能量粉尘矿石
+item.normalingot.name=幻影物质锭
+item.energydust.name=幻影能量粉尘
+
+item.basichelmet.name=幻影物质头盔
+item.basicchestplate.name=幻影物质战甲
+item.basicleggings.name=幻影物质护腿
+item.basicboots.name=幻影物质战靴
+
+item.basicsword.name=幻影物质剑
+item.basicaxe.name=幻影物质斧
+item.basicpickaxe.name=幻影物质镐
+item.basicspade.name=幻影物质铲
+
+item.ph_PEUshield.name=PEU供能生命保障系统
+tile.PEURecycle.name=PEU供能废品回收器
+PEU Recycling Machine=PEU供能废品回收器
+tile.reCustomTable.name=PEU自定义逆向工作台
+tile.PEUtransport.name=PEU能量无线输出模块
+tile.PEUinput.name=PEU能量无线接收模块
+ReCustomTable=PEU自定义逆向工作台
+item.customtools.name=PEU聚能核心
+PEU supplies core Iron sword.name=PEU聚能核心铁质剑
+PEU supplies core Advanced-Material sword.name=PEU聚能核心高级幻影物质剑
+PEU supplies core Advanced-Diamond sword.name=PEU聚能核心高级复合钻石剑
+PEU supplies core Hyper-Excited diamond sword.name=PEU聚能核心超激发态钻石剑
+Strengthen time: =强化次数
+item.materialadv_part.name=高级幻影物质剑刃
+item.materialdia_part.name=高级复合钻石剑刃
+item.materialiron_part.name=铁制剑刃
+item.materialextdia_part.name=§3超激发态钻石剑刃
+item.strengthenitem.name=伤害强化芯片
+text.customtable.1=左上核心，右上材料
+text.customtable.2=左下供能，右下强化
+CustomTable=PEU自定义工作台
+tile.CustomTable.name=PEU自定义工作台
+item.explodeitem.name=爆炸强化芯片
+item.lightningitem.name=雷电强化芯片
+item.rapidlyitem.name=急速移动芯片
+item.madv_part.name=高级幻影物质镐头
+item.madia_part.name=高级复合钻石镐头
+item.miron_part.name=铁制镐头
+item.maextdia_part.name=§3超激发态钻石镐头
+
+Poly Energy Converter=聚能转换仪
+PEU Poly Energy Converter=PEU高级聚能转换仪
+tile.stateexchange.name=聚能转换仪
+tile.PEUstateexchange.name=§3PEU高级聚能转换仪
+Energy Converter=基础能量转出仪
+Stored PEU=储存PEU能量
+Transport Speed=传输速率
+PEU Furnace=PEU熔炉
+tile.PEUfurnace.name=PEU熔炉
+tile.energyproduce.name=基础PEU能量转出仪
+tile.PEUStorage.name=PEU能量储存器
+tile.PEUSolar.name=太阳能PEU富集器
+tile.PEUASolar.name=§3高级太阳能PEU富集器
+tile.PEUAStorage.name=§3高级PEU能量储存器
+UpSlot is Input,DownSlot is Output=上端输入下端输出
+UpSlot Output=上端口输出
+Self-cycling PEU equipment=§3自循环PEU设备
+PEUStorage=PEU能量储存器
+PEUAStorage=高级PEU能量储存器
+PEUSolar=太阳能PEU富集器
+Advanced PEUSolar=高级太阳能PEU富集器
+attack damage=§1攻击伤害
+
+item.ph_advdust.name=激发态能量粉尘
+item.ph_advingot.name=激发态幻影物质锭
+item.ph_hyperdiamond.name=§3超激发态钻石
+
+item.eport_input.name=基础能量输入端口
+item.eport_output.name=基础能量输出端口
+item.eport_save.name=基础能量储存模块
+item.eport_impact.name=§3能量冲击模块
+item.eport_enrich.name=§3能量富集模块
+item.eport_storage.name=§3能量储存模块
+
+item.ph_basicbattery.name=便携能量储存器
+item.ph_advbattery.name=§3便携高级能量储存器
+
+item.PEUsword.name=PEU供能激发态幻影物质剑
+item.PEUaxe.name=PEU供能激发态幻影物质斧
+item.PEUpickaxe.name=PEU供能激发态幻影物质镐
+item.PEUspade.name=PEU供能激发态幻影物质铲
+item.ph_PEUgun.name=PEU供能自动十字弩
+item.ph_PEUFlySupport.name=PEU供能飞行辅助模块
+item.ph_PEUShield.name=PEU供能能量护盾
+
+item.PEUhelmet.name=PEU供能激发态幻影物质头盔
+item.PEUchestplate.name=PEU供能激发态幻影物质战甲
+item.PEUleggings.name=PEU供能激发态幻影物质护腿
+item.PEUboots.name=PEU供能激发态幻影物质战靴
+
+item.PEUfinalhelmet.name=§3EX-PEU供能超激发态幻影物质头盔
+item.PEUfinalchestplate.name=§3EX-PEU供能超激发态幻影物质战甲
+item.PEUfinalleggings.name=§3EX-PEU供能超激发态幻影物质护腿
+item.PEUfinalboots.name=§3EX-PEU供能超激发态幻影物质战靴
+
+item.PEUfsword.name=§3EX-PEU供能超激发态幻影物质剑
+item.PEUfpickaxe.name=§3EX-PEU供能超激发态幻影物质镐
+
