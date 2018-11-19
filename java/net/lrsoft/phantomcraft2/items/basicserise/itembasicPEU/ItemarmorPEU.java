@@ -36,23 +36,23 @@ public class ItemarmorPEU extends ItemArmor {
 	public void addInformation(ItemStack itemStack, EntityPlayer entityPlayer, List information, boolean advancedTooltip)
 	{
 		//  NBTTagCompound tag = new NBTTagCompound();
-    try{
+        	try{
 		  int a=itemStack.stackTagCompound.getInteger("storedPEU");
 		  information.add("Stored PEU "+a+"/"+itemPEUList.PEUarmor);
 		  if(a>itemPEUList.PEUarmor) itemStack.stackTagCompound.setInteger("storedPEU",itemPEUList.PEUarmor);
-    }catch(Exception e){}
+        	}catch(Exception e){}
 	}
-    @Override
-    public String getArmorTexture(ItemStack stack, Entity entity, int slot, String type){
-        return "phtc2:textures/armor/" + this.textureName + "_" + (this.armorType == 2 ? "2" : "1") + ".png";
-    }
-    @Override
-    public void onArmorTick(World world, EntityPlayer player, ItemStack itemStack) {
-        if (itemStack.getItem().equals(ItemPEUManager.PEUboots)||
-            	itemStack.getItem().equals(ItemPEUManager.PEUchestplate)||
-            	itemStack.getItem().equals(ItemPEUManager.PEUhelmet)||
-            	itemStack.getItem().equals(ItemPEUManager.PEUleggings)){
-                try{
+    	@Override
+    	public String getArmorTexture(ItemStack stack, Entity entity, int slot, String type){
+       	 return "phtc2:textures/armor/" + this.textureName + "_" + (this.armorType == 2 ? "2" : "1") + ".png";
+    	}
+    	@Override
+    	public void onArmorTick(World world, EntityPlayer player, ItemStack itemStack) {
+        	if (itemStack.getItem().equals(ItemPEUManager.PEUboots)||
+            		itemStack.getItem().equals(ItemPEUManager.PEUchestplate)||
+            		itemStack.getItem().equals(ItemPEUManager.PEUhelmet)||
+            		itemStack.getItem().equals(ItemPEUManager.PEUleggings)){
+               	 try{
           		  int a=itemStack.stackTagCompound.getInteger("storedPEU");
           		  if(a-5>=0 && itemStack.getItemDamage()>0){
           			itemStack.setItemDamage(itemStack.getItemDamage()-1);
@@ -63,11 +63,8 @@ public class ItemarmorPEU extends ItemArmor {
                 }catch(Exception e){
                 }
 
-            }
-    }
-    public void onUpdate(ItemStack itemStack, World world, Entity entity, int slot, boolean par5){
-
-    }
+          }
+    	}
     
     public static void onReg(){
     	  GameRegistry.registerItem(ItemPEUManager.PEUhelmet = new ItemarmorPEU("PEUhelmet", ItemsRegister.PEUarmor, "PEUarmor", 0), "PEUhelmet");//0 for helmet
