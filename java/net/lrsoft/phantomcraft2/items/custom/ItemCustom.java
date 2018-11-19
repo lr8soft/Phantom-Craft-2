@@ -88,17 +88,17 @@ public class ItemCustom extends Item{
 	  {
 		  int strtime=0;
 		  float truedamage;
-        try{
-		  int a=itemStack.stackTagCompound.getInteger("storedPEU");
-		  information.add("Stored PEU "+a+"/"+itemPEUList.PEUcustom);
-		  if(a>itemPEUList.PEUcustom) itemStack.stackTagCompound.setInteger("storedPEU",itemPEUList.PEUcustom);
-        }catch(Exception e){
+       		  try{
+		        int a=itemStack.stackTagCompound.getInteger("storedPEU");
+		  	information.add("Stored PEU "+a+"/"+itemPEUList.PEUcustom);
+		  	if(a>itemPEUList.PEUcustom) itemStack.stackTagCompound.setInteger("storedPEU",itemPEUList.PEUcustom);
+                  }catch(Exception e){
 			try{
 				 NBTTagCompound retag = new NBTTagCompound();
 				 itemStack.setTagCompound(retag);
 				 retag.setInteger("storedPEU", 0);
 			}catch(Exception k){}
-        }
+        	  }
 		try{
 			strtime=itemStack.stackTagCompound.getInteger("strtime");
 			information.add("Strengthen time: "+ strtime);
